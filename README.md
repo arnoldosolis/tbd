@@ -1,5 +1,5 @@
-#1 -
-Valid Parentheses
+# 1
+### Valid Parentheses
 
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -29,8 +29,8 @@ Constraints:
 1 <= s.length <= 104
 s consists of parentheses only '()[]{}'.
 
-#2 -
-Product of Array Except Self
+# 2
+### Product of Array Except Self
 
 Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 
