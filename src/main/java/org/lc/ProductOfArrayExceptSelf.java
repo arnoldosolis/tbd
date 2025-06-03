@@ -32,10 +32,10 @@ public class ProductOfArrayExceptSelf {
             suff[i] = suff[i + 1] * nums[i + 1];
         }
 
-        int[] ans = new int[n];
+        int[] result = new int[n];
         for(int i = 0; i < n; i++) {
-            ans[i] = pre[i] * suff[i];
+            result[i] = pre[i] * suff[i];
         }
-        return ans;
+        return result;
     }
 }
